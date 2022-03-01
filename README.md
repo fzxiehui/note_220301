@@ -38,6 +38,8 @@ wget https://raw.githubusercontent.com/fzxiehui/vimdoc/master/init.vim
 
 ```shell
 sudo apt install npm
+sudo npm install n -g
+sudo n stable
 sudo npm install -g neovim
 ```
 
@@ -59,4 +61,30 @@ sudo pip install pynvim
 
 ```shell
 sudo apt install git
+```
+
+## check path
+
+```shell
+nvim
+:checkhealth
+可以忽略Perl 
+```
+
+## install coc 
+```shell
+:CocInstall coc-clangd  # C++环境插件
+:CocInstall coc-cmake  # Cmake 支持
+ 
+:CocInstall coc-git    # git 支持
+
+:CocInstall coc-pyright #python 
+
+
+:CocInstall coc-sh     # bash 环境支持
+###  :CocInstall coc-snippets # python提供 snippets
+###:CocInstall coc-vimlsp # lsp
+##:CocInstall coc-yaml   # yaml
+##:CocInstall coc-syntax
+##:CocInstall coc-pairs
 ```
