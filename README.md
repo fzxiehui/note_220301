@@ -54,3 +54,9 @@ sudo npm install -g neovim
 sudo pip3 install pynvim
 sudo pip install pynvim
 ```
+
+## install git
+
+```shell
+sudo apt install git
+```
