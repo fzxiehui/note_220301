@@ -1,0 +1,48 @@
+{
+  "types": {
+    "feat": {
+      "description": "A new feature(添加新功能)",
+      "title": "Features"
+    },
+    "fix": {
+      "description": "A bug fix(修复bug缺陷)",
+      "title": "Bug Fixes"
+    },
+    "docs": {
+      "description": "Documentation only changes(变更文档)",
+      "title": "Documentation"
+    },
+    "style": {
+      "description": "Changes that do not affect the meaning of the code (white-space, formatting, missing semi-colons, etc)调整代码格式，未有功能代码修改（例如：空白字符宽度、对齐、添加分隔符、注释）",
+      "title": "Styles"
+    },
+    "refactor": {
+      "description": "A code change that neither fixes a bug nor adds a feature(重构代码，未涉及新功能或缺陷修复)",
+      "title": "Code Refactoring"
+    },
+    "perf": {
+      "description": "A code change that improves performance(优化性能)",
+      "title": "Performance Improvements"
+    },
+    "test": {
+      "description": "Adding missing tests or correcting existing tests(新增或修改测试代码)",
+      "title": "Tests"
+    },
+    "build": {
+      "description": "Changes that affect the build system or external dependencies (example scopes: gulp, broccoli, npm)修改构建系统或外部依赖(例如：gulp, broccoli, npm)",
+      "title": "Builds"
+    },
+    "ci": {
+      "description": "Changes to our CI configuration files and scripts (example scopes: Travis, Circle, BrowserStack, SauceLabs)修改自动化构建脚本 (例如: Travis, Circle, BrowserStack, SauceLabs)",
+      "title": "Continuous Integrations"
+    },
+    "chore": {
+      "description": "Other changes that don't modify src or test files(其它非代码或测试的变更)",
+      "title": "Chores"
+    },
+    "revert": {
+      "description": "Reverts a previous commit(恢复到上一次commit提交)",
+      "title": "Reverts"
+    }
+  }
+}
