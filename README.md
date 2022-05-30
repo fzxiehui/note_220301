@@ -69,6 +69,12 @@ sudo apt install git
 nvim
 :checkhealth
 可以忽略Perl 
+
+```
+## install plug
+```shell
+nvim
+:PlugInstall
 ```
 
 ## install coc 
