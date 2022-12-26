@@ -126,3 +126,9 @@ Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
 
 :GoInstallBinaries
 ````
+
+## 添加显示定义
+```shell
+" 显示定义
+nnoremap gd :call CocActionAsync('doHover')<CR>   
+```
