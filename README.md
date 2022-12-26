@@ -18,7 +18,10 @@ export PATH="/usr/local/nvim-linux64/bin:$PATH"
 source ~/.bashrc
 ```
 
-# install Vim-plug
+# install Vim-plug" fzf
+Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+Plug 'junegunn/fzf.vim'
+
 
 ## download
 
@@ -139,6 +142,12 @@ nnoremap gd :call CocActionAsync('doHover')<CR>
 git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
 ~/.fzf/install
 sudo apt install silversearcher-ag
+
+# plug
+" fzf
+Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+Plug 'junegunn/fzf.vim'
+
 
 # 配置
 nnoremap ff :Files<CR>
