@@ -94,3 +94,9 @@ nvim
 ##:CocInstall coc-syntax
 ##:CocInstall coc-pairs
 ```
+
+## install ctags
+
+```shell
+sudo apt install ctags
+```
