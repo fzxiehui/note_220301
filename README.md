@@ -113,5 +113,16 @@ Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
 :PlugInstall
 :CocInstall coc-go
 
+:CocConfig
+{
+ "languageserver": {
+   "golang": {
+     "command": "gopls",
+     "rootPatterns": ["go.mod"],
+     "filetypes": ["go"]
+   }
+ }
+}
+
 :GoInstallBinaries
 ````
