@@ -100,3 +100,18 @@ nvim
 ```shell
 sudo apt install ctags
 ```
+
+
+## 安装go语言支持 221260
+
+```shell
+# ~/.config/nvim/init.vim 添加
+" vim-go 
+Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
+
+# 打开nvim 执行 
+:PlugInstall
+:CocInstall coc-go
+
+:GoInstallBinaries
+````
