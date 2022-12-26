@@ -132,3 +132,16 @@ Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
 " 显示定义
 nnoremap gd :call CocActionAsync('doHover')<CR>   
 ```
+
+## 模糊查找工具
+```shell
+# 安装 fzf
+git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
+~/.fzf/install
+sudo apt install silversearcher-ag
+
+# 配置
+nnoremap ff :Files<CR>
+" 模糊查找
+nnoremap fa :Ag<CR>
+```
